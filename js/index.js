@@ -193,7 +193,7 @@ function _sidebarTimelineHandler(timeline) {
         html += `</span>`;
         html += `</li>`;
     });
-    
+
     html += `</div>`;
     return html;
 }
@@ -208,4 +208,11 @@ function _sidebarListHandler(list) {
     html += `</ul>`;
     html += `</div>`;
     return html;
+}
+
+//////////////////////////////////////////////////
+
+e("hide-watermark").onclick = function () {
+    e("watermark").innerHTML = "";
+    e("hide-watermark").onclick = null;
 }

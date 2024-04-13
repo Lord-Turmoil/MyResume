@@ -87,6 +87,18 @@ a {
     font-size: 0.7em;
 }
 
+@media screen {
+    .watermark {
+        display: none;
+    }
+}
+
+@media print {
+    .watermark {
+        display: block;
+    }
+}
+
 .left-panel {
     position: fixed;
     top: 8mm;
@@ -123,10 +135,25 @@ a {
     color: var(--color-light);
 }
 
+.hidden-panel {
+    position: fixed;
+    left: 8mm;
+    bottom: 8mm;
+    opacity: 0;
+}
+
+.hidden-panel button {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
 @media print {
 
     .left-panel,
-    .right-panel {
+    .right-panel,
+    .hidden-panel {
         display: none;
     }
 }
