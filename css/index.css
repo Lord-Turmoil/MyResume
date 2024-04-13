@@ -29,10 +29,10 @@ a {
 
 .body {
     font-family: 'Microsoft YaHei', sans-serif;
+    position: relative;
 }
 
 .sheet {
-    position: relative;
     background: white;
     padding: var(--padding-top) var(--padding-right) var(--padding-bottom) var(--padding-left);
 }
@@ -85,4 +85,48 @@ a {
     font-family: cursive;
     color: rgba(0, 0, 0, 0.3);
     font-size: 0.7em;
+}
+
+.left-panel {
+    position: fixed;
+    top: 8mm;
+    left: 4mm;
+}
+
+.left-panel li {
+    margin: 1mm;
+}
+
+.left-panel img {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.right-panel {
+    position: fixed;
+    top: 8mm;
+    right: 4mm;
+}
+
+.right-panel button {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: var(--color-light);
+    color: var(--color-dark);
+    font-size: 1em;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.right-panel button:hover {
+    background: var(--color-dark);
+    color: var(--color-light);
+}
+
+@media print {
+
+    .left-panel,
+    .right-panel {
+        display: none;
+    }
 }
