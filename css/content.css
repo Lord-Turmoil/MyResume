@@ -1,0 +1,120 @@
+.content {
+    flex-grow: 1;
+    display: flex;
+    margin-top: 2mm;
+}
+
+.content .left {
+    flex: 7;
+    margin-right: 10mm;
+}
+
+.content .right {
+    flex: 3;
+}
+
+.content hr {
+    width: 2px;
+    height: 100%;
+    border: 0;
+    background-image: linear-gradient(to bottom, var(--color-light), white);
+}
+
+.content .trivial {
+    color: var(--color-trivial);
+}
+
+.content .normal {
+    font-weight: normal;
+}
+
+.content .small {
+    font-size: 0.9em;
+}
+
+.content .very-small {
+    font-size: 0.8em;
+}
+
+/* In main content. */
+
+.chapter {
+    margin-bottom: var(--layout-margin);
+}
+
+.chapter hr {
+    height: 2px;
+    border: 0;
+    width: 50%;
+    margin-bottom: var(--layout-margin);
+    background-image: linear-gradient(to right, var(--color-dark), white);
+}
+
+.chapter h3.tiny {
+    font-weight: normal;
+}
+
+.chapter p {
+    line-height: 1.5;
+    text-indent: 2ch;
+}
+
+.chapter p.no-indent {
+    text-indent: 0;
+}
+
+.chapter .section {
+    margin-bottom: 2mm;
+    margin-left: 4mm;
+}
+
+.chapter .section .timeline {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.chapter .section .subtitle {
+    font-size: 0.8em;
+    font-style: italic;
+    margin-bottom: 1mm;
+}
+
+.chapter .section ul {
+    margin-left: 4mm;
+}
+
+.chapter .section ul li {
+    list-style-type: disc;
+    list-style-position: inside;
+    margin-bottom: 0.5mm;
+}
+
+/* In sidebar */
+
+.sidebar .section {
+    margin-top: 10mm;
+}
+
+.sidebar .section h4 {
+    margin-bottom: 2mm;
+}
+
+.sidebar ul {
+    margin-left: 2mm;
+}
+
+.sidebar ul li {
+    line-height: 2em;
+}
+
+.sidebar .section .time-badge {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.sidebar .section .time-badge .badge {
+    font-style: italic;
+    margin-right: 2mm;
+}

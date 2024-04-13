@@ -1,0 +1,119 @@
+{
+    "name": "Tony Skywalker",
+    "title": "Jedi Master",
+    "avatar": "avatar.svg",
+    "contact": {
+        "tel": "123-456-7890",
+        "email": "tony-turmoil@outlook.com",
+        "website": "https://www.tonys-studio.com",
+        "github": "Lord-Turmoil"
+    },
+    "chapters": [
+        {
+            "type": "plaintext",
+            "title": "Introduction",
+            "text": "Tony Skywalker is a Jedi Knight who has been trained in the ways of the Force. He is a skilled warrior and has fought in many battles against the dark side. Tony is a master of the lightsaber and has used his skills to protect the galaxy from evil. He is a hero to many and is known for his bravery and courage."
+        },
+        {
+            "type": "timeline",
+            "title": "Timeline",
+            "timeline": [
+                {
+                    "title": "Death",
+                    "time": "66 ABY",
+                    "description": "Tony Skywalker died in grief after his wife Anna left him."
+                },
+                {
+                    "title": "Birth",
+                    "time": "19 BBY",
+                    "description": "Tony Skywalker was born on the planet Tatooine to Anakin Skywalker and Padmé Amidala."
+                }
+            ]
+        },
+        {
+            "type": "multiline",
+            "title": "Skills",
+            "lines": [
+                "Master of the lightsaber",
+                "Skilled in the ways of the Force",
+                "Expert pilot",
+                "Strategic thinker"
+            ]
+        },
+        {
+            "type": "project",
+            "title": "Achievements",
+            "projects": [
+                {
+                    "title": "Battle of Endor",
+                    "description": "Leader",
+                    "badges": [
+                        "Lightsaber",
+                        "Force"
+                    ],
+                    "highlights": [
+                        "Defeated Darth Vader",
+                        "Destroyed the second Death Star"
+                    ]
+                },
+                {
+                    "title": "Battle of Hoth",
+                    "description": "Commander",
+                    "badges": [
+                        "Lightsaber",
+                        "Force",
+                        "AT-AT"
+                    ],
+                    "highlights": [
+                        "Led the defense of the Rebel base",
+                        "Defeated the Imperial forces"
+                    ]
+                }
+            ]
+        }
+    ],
+    "sidebar": [
+        {
+            "type": "timeline",
+            "title": "Awards",
+            "icon": "fa fa-trophy",
+            "timeline": [
+                {
+                    "title": "Hero of the Rebellion",
+                    "time": "2 ABY"
+                },
+                {
+                    "title": "Medal of Bravery",
+                    "time": "3 ABY"
+                },
+                {
+                    "title": "Republic Medal of Valor",
+                    "time": "5 ABY"
+                }
+            ]
+        },
+        {
+            "type": "timeline",
+            "title": "Training",
+            "icon": "fa fa-graduation-cap",
+            "timeline": [
+                {
+                    "title": "Padawan",
+                    "time": "1 BBY"
+                },
+                {
+                    "title": "Jedi Knight",
+                    "time": "4 ABY"
+                },
+                {
+                    "title": "Jedi Master",
+                    "time": "7 ABY"
+                },
+                {
+                    "title": "Jedi Council Member",
+                    "time": "10 ABY"
+                }
+            ]
+        }
+    ]
+}
