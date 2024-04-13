@@ -4,9 +4,16 @@
 
 ---
 
-## Overview
-
 A simple but laconic resume template. It is customizable and easy to use. You can use it to build your own resume.
+
+Live Demo:
+
+- <https://paste.tonys-studio.top/>
+- <https://lord-turmoil.github.io/MyResume/>
+
+## How to use it
+
+Open `index.html` in your favorite browser to preview the resume. Press `Ctrl + P` to print the resume to a PDF file. You can follow the next section to customize the resume.
 
 ## Customization
 
