@@ -183,7 +183,7 @@ function _projectHandler(chapter) {
 
 function _sidebarTimelineHandler(timeline) {
     var html = `<div class="section">`;
-    html += `<h4>${`<i class=${v(timeline.icon, "")}></i>`} ${v(timeline.title)}</h4>`;
+    html += `<h4>${`<i class="${v(timeline.icon, "")}"></i>`} ${v(timeline.title)}</h4>`;
     html += `<ul>`
     timeline.timeline.forEach(element => {
         html += `<li class="very-small">`;
@@ -193,14 +193,14 @@ function _sidebarTimelineHandler(timeline) {
         html += `</span>`;
         html += `</li>`;
     });
-    html += `</ul>`;
+    
     html += `</div>`;
     return html;
 }
 
 function _sidebarListHandler(list) {
     var html = `<div class="section">`;
-    html += `<h4>${`<i class=${v(list.icon, "")}></i>`} ${v(list.title)}</h4>`;
+    html += `<h4>${`<i class="${v(list.icon, "")}"></i>`} ${v(list.title)}</h4>`;
     html += `<ul>`;
     list.items.forEach(element => {
         html += `<li>${v(element)}</li>`;
