@@ -15,6 +15,8 @@ Live Demo:
 
 Open `index.html` in your favorite browser to preview the resume. Press `Ctrl + P` to print the resume to a PDF file. You can follow the next section to customize the resume.
 
+> **NOTE:** You may need the VSCode extension [Open In Default Browser](https://marketplace.visualstudio.com/items?itemName=peakchen90.open-html-in-browser) to open the HTML file with a HTTP server. Or it cannot correctly load local file.
+
 ## Customization
 
 The data of the resume is stored in the `data.json` file. You can modify the data in the file to customize the resume.
