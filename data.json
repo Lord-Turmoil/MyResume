@@ -1,9 +1,9 @@
 {
-    "name": "Tony Skywalker",
-    "title": "Jedi Master",
+    "name": "虎房根",
+    "title": "后端工程师",
     "avatar": "avatar.svg",
     "contact": {
-        "tel": "123-456-7890",
+        "tel": "11133335555",
         "email": "tony-turmoil@outlook.com",
         "website": "https://www.tonys-studio.com",
         "github": "Lord-Turmoil"
@@ -11,62 +11,95 @@
     "chapters": [
         {
             "type": "plaintext",
-            "title": "Introduction",
-            "text": "Tony Skywalker is a Jedi Knight who has been trained in the ways of the Force. He is a skilled warrior and has fought in many battles against the dark side. Tony is a master of the lightsaber and has used his skills to protect the galaxy from evil. He is a hero to many and is known for his bravery and courage."
+            "title": "个人简介",
+            "text": "性格沉稳，做事认真，在校学习成绩优异，GPA 1.0，专业排名 181/181。热爱编程，享受代码设计的过程，熟悉各种设计模式。代码之外，是一名古典音乐与电影爱好者，也是 Kane's Wrath 业余玩家。"
         },
         {
             "type": "timeline",
-            "title": "Timeline",
+            "title": "教育经历",
             "timeline": [
                 {
-                    "title": "Death",
-                    "time": "66 ABY",
-                    "description": "Tony Skywalker died in grief after his wife Anna left him."
-                },
-                {
-                    "title": "Birth",
-                    "time": "19 BBY",
-                    "description": "Tony Skywalker was born on the planet Tatooine to Anakin Skywalker and Padmé Amidala."
+                    "title": "野鸡大学",
+                    "time": "2021.09 - Now",
+                    "description": "软件工程，本科"
                 }
             ]
         },
         {
             "type": "multiline",
-            "title": "Skills",
+            "title": "技术能力",
             "lines": [
-                "Master of the lightsaber",
-                "Skilled in the ways of the Force",
-                "Expert pilot",
-                "Strategic thinker"
+                "编程语言：C/C++、C#、Java、Python、JavaScript",
+                "开发框架：ASP.NET Core、Spring Boot、Django、React、WPF",
+                "开发工具：Visual Studio、VS Code、JetBrains IDE",
+                "其他技能：Linux、MySQL、Redis、Neo4j、Docker、Kubernetes"
             ]
         },
         {
             "type": "project",
-            "title": "Achievements",
+            "title": "项目经验",
             "projects": [
                 {
-                    "title": "Battle of Endor",
-                    "description": "Leader",
+                    "title": "BeyondPaper——论文检索平台",
+                    "description": "项目组长，后端开发",
                     "badges": [
-                        "Lightsaber",
-                        "Force"
+                        "ASP.NET Core",
+                        "Django",
+                        "Elasticsearch",
+                        "Redis",
+                        "MySQL",
+                        "Nginx",
+                        "Kubernetes"
                     ],
                     "highlights": [
-                        "Defeated Darth Vader",
-                        "Destroyed the second Death Star"
+                        "结合 Elasticsearch 与 Redis 实现高性能检索",
+                        "实现 OpenAlex 数据批量热更新"
                     ]
                 },
                 {
-                    "title": "Battle of Hoth",
-                    "description": "Commander",
+                    "title": "墨书——团队协作与管理平台",
+                    "description": "项目组长，后端开发",
                     "badges": [
-                        "Lightsaber",
-                        "Force",
-                        "AT-AT"
+                        "Django",
+                        "Redis",
+                        "MySQL",
+                        "Nginx"
                     ],
                     "highlights": [
-                        "Led the defense of the Rebel base",
-                        "Defeated the Imperial forces"
+                        "支持多人同步在线文档编辑与原型设计",
+                        "支持群聊与实时聊天"
+                    ]
+                },
+                {
+                    "title": "Code Paste——Office 在线代码高亮工具",
+                    "description": "个人项目",
+                    "badges": [
+                        "HTML",
+                        "CSS",
+                        "JavaScript",
+                        "jQuery",
+                        "Prism.js"
+                    ],
+                    "highlights": [
+                        "方便地为 Microsoft Word 和 PowerPoint 添加高亮代码块",
+                        "Live Demo：<a href=\"https://paste.tonys-studio.top/\">paste.tonys-studio.top</a>"
+                    ]
+                },
+                {
+                    "title": "Dungeon——像素风 2D Rouge-like 射击游戏",
+                    "description": "个人项目",
+                    "badges": [
+                        "C++",
+                        "EasyX",
+                        "Windows GDI",
+                        "FMOD",
+                        "LOC: 50K+"
+                    ],
+                    "highlights": [
+                        "使用自主设计的 2D 游戏引擎",
+                        "设计了一套基于 XML 的即时渲染 UI，改动无需编译源码",
+                        "综合使用多种设计模式",
+                        "游戏主页：<a href=\"https://www.tonys-studio.top/posts/Dungeon/\">www.tonys-studio.top/posts/Dungeon/</a>"
                     ]
                 }
             ]
@@ -75,43 +108,51 @@
     "sidebar": [
         {
             "type": "timeline",
-            "title": "Awards",
+            "title": "获奖情况",
             "icon": "fa fa-trophy",
             "timeline": [
                 {
-                    "title": "Hero of the Rebellion",
-                    "time": "2 ABY"
+                    "title": "不知名的一等奖",
+                    "time": "2023"
                 },
                 {
-                    "title": "Medal of Bravery",
-                    "time": "3 ABY"
+                    "title": "不知名的二等奖",
+                    "time": "2023"
                 },
                 {
-                    "title": "Republic Medal of Valor",
-                    "time": "5 ABY"
+                    "title": "不知名的三等奖",
+                    "time": "2023"
+                },
+                {
+                    "title": "不知名的四等奖",
+                    "time": "2023"
+                },
+                {
+                    "title": "不知名的五等奖",
+                    "time": "2023"
+                },
+                {
+                    "title": "不知名的六等奖",
+                    "time": "2022"
                 }
             ]
         },
         {
             "type": "timeline",
-            "title": "Training",
-            "icon": "fa fa-graduation-cap",
+            "title": "助教经历",
+            "icon": "fa fa-chalkboard-teacher",
             "timeline": [
                 {
-                    "title": "Padawan",
-                    "time": "1 BBY"
+                    "title": "操作系统",
+                    "time": "2024 春季学期"
                 },
                 {
-                    "title": "Jedi Knight",
-                    "time": "4 ABY"
+                    "title": "面向对象程序设计",
+                    "time": "2023 秋季学期"
                 },
                 {
-                    "title": "Jedi Master",
-                    "time": "7 ABY"
-                },
-                {
-                    "title": "Jedi Council Member",
-                    "time": "10 ABY"
+                    "title": "程序设计实践",
+                    "time": "2023 夏季学期"
                 }
             ]
         }
