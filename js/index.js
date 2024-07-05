@@ -142,7 +142,9 @@ function _timelineHandler(timeline) {
         html += `<h3>${v(element.title)}</h3>`;
         html += `<span class="small trivial">${v(element.time)}</span>`;
         html += `</div>`;
-        html += `<p>${v(element.description)}</p>`;
+        if (element.description) {
+            html += `<p>${v(element.description)}</p>`;
+        }
         html += `</div>`;
     });
     return html;
