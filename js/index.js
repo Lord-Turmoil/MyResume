@@ -35,7 +35,7 @@ function e(id) {
 }
 
 function v(value, defaultValue = null) {
-    return value ? value : (defaultValue ? defaultValue : "Unknown");
+    return (value !== null && value !== undefined) ? value : (defaultValue ? defaultValue : "Unknown");
 }
 
 function o(obj, func) {
@@ -57,7 +57,9 @@ function render(data) {
 function _renderInfo(data) {
     e("name").innerHTML = v(data.name);
     e("title").innerHTML = v(data.title);
-    e("avatar").innerHTML = `<img src="${v(data.avatar, "avatar.svg")}" alt="avatar">`;
+    if (data.avatar) {
+        e("avatar").innerHTML = `<img src="${v(data.avatar, "avatar.svg")}" alt="avatar">`;
+    }
     o(data.contact, _renderContact);
 }
 

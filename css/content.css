@@ -58,7 +58,7 @@
 
 .chapter p {
     line-height: 1.5;
-    text-indent: 2ch;
+    /* text-indent: 2ch; */
     text-align: justify;
 }
 

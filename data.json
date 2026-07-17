@@ -1,32 +1,32 @@
 {
-    "name": "Tony Skywalker",
-    "title": "Jedi Master",
-    "avatar": "avatar.svg",
+    "name": "Zhengyao LIU",
+    "title": "a.k.a. Tony",
+    "avatar": "",
     "contact": {
-        "tel": "123-456-7890",
-        "email": "tony-turmoil@outlook.com",
-        "website": "https://www.tonys-studio.com",
+        "tel": "",
+        "email": "zhengyao.liu@u.nus.edu",
+        "website": "https://www.zhengyaoliu.com",
         "github": "Lord-Turmoil"
     },
     "chapters": [
         {
             "type": "plaintext",
-            "title": "Introduction",
-            "text": "Tony Skywalker is a Jedi Knight who has been trained in the ways of the Force. He is a skilled warrior and has fought in many battles against the dark side. Tony is a master of the lightsaber and has used his skills to protect the galaxy from evil. He is a hero to many and is known for his bravery and courage."
+            "title": "About Me",
+            "text": "I'm currently a Ph.D. student in the School of Computing at National University of Singapore. I am generally interested in building high-quality software systems through various techniques, and also interested in how to leverage Large Language Models (LLMs), especially agentic approaches, in software engineering tasks. I love helping others and sharing knowledge, and enjoy teaching students."
         },
         {
             "type": "timeline",
-            "title": "Timeline",
+            "title": "Education",
             "timeline": [
                 {
-                    "title": "Death",
-                    "time": "66 ABY",
-                    "description": "Tony Skywalker died in grief after his wife Anna left him."
+                    "title": "National University of Singapore, Singapore",
+                    "time": "August 2025 - Present",
+                    "description": "Ph.D. in Computer Science"
                 },
                 {
-                    "title": "Birth",
-                    "time": "19 BBY",
-                    "description": "Tony Skywalker was born on the planet Tatooine to Anakin Skywalker and Padmé Amidala."
+                    "title": "Beihang University, China",
+                    "time": "September 2021 - June 2025",
+                    "description": "Bachelor in Software Engineering, GPA 3.83/4.0, Rank 3/181"
                 }
             ]
         },
@@ -34,40 +34,96 @@
             "type": "multiline",
             "title": "Skills",
             "lines": [
-                "Master of the lightsaber",
-                "Skilled in the ways of the Force",
-                "Expert pilot",
-                "Strategic thinker"
+                "<b>Programming Languages:</b> C, C++, Python, Java, C#, JavaScript/TypeScript",
+                "<b>Familiar with:</b> Spring Boot, ASP.NET Core, Vue, React, Git, Docker"
             ]
         },
         {
             "type": "project",
-            "title": "Achievements",
+            "title": "Selected Publications/Projects",
             "projects": [
                 {
-                    "title": "Battle of Endor",
-                    "description": "Leader",
+                    "title": "Automated Lemma Discovery in Agentic Program Verification",
+                    "description": "ASE 2026",
                     "badges": [
-                        "Lightsaber",
-                        "Force"
+                        "Preprint: <a href='https://arxiv.org/abs/2603.22114' target='_blank'>https://arxiv.org/abs/2603.22114</a>"
                     ],
                     "highlights": [
-                        "Defeated Darth Vader",
-                        "Destroyed the second Death Star"
+                        "Introducing program comprehension into deductive program verification",
+                        "Improving the performance of LLM agents in proof generation tasks with helper lemmas"
                     ]
                 },
                 {
-                    "title": "Battle of Hoth",
-                    "description": "Commander",
+                    "title": "Russian Tutor",
+                    "description": "A tailored Russian learning platform powered by LLM",
                     "badges": [
-                        "Lightsaber",
-                        "Force",
-                        "AT-AT"
+                        "Under development",
+                        "Preview: <a href='https://russian.tonys-studio.top/' target='_blank'>https://russian.tonys-studio.top/</a>",
+                        "React"
                     ],
                     "highlights": [
-                        "Led the defense of the Rebel base",
-                        "Defeated the Imperial forces"
+                        "Providing a personalized learning experience for Russian learners",
+                        "Developed mainly with Claude Code"
                     ]
+                },
+                {
+                    "title": "Metrognome",
+                    "description": "A cross-platform minimalistic metronome",
+                    "badges": [
+                        "Repository: <a href='https://github.com/Lord-Turmoil/metrognome' target='_blank'>https://github.com/Lord-Turmoil/metrognome</a>",
+                        "Preview: <a href='https://metrognome.top/' target='_blank'>https://metrognome.top/</a>",
+                        "TypeScript",
+                        "HTML",
+                        "CSS",
+                        "Capacitor"
+                    ],
+                    "highlights": [
+                        "Supporting all Web, Android and iOS",
+                        "Initially hand-written and currently co-maintained with AI Agents"
+                    ]
+                },
+                {
+                    "title": "Patpat Online",
+                    "description": "All-in-one course platform for object-oriented programming course",
+                    "badges": [
+                        "Repository: <a href='https://github.com/PatpatOnline' target='_blank'>https://github.com/PatpatOnline</a>",
+                        "Spring Boot",
+                        "Vue",
+                        "MySQL",
+                        "RabbitMQ",
+                        "K3s"
+                    ],
+                    "highlights": [
+                        "Covering all activities during the course: materials, discussions, grouping, assignments, scoring...",
+                        "Providing online judge service for coding assignments",
+                        "Put into action in the following semesters, serving 200+ students"
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "timeline",
+            "title": "Teaching Assistant Experience",
+            "timeline": [
+                {
+                    "title": "Compiler Technology @ BUAA",
+                    "time": "2024 Autumn",
+                    "description": "Preparing lab tutorials, maintaining course platform, and grading assignments"
+                },
+                {
+                    "title": "Operating Systems @ BUAA",
+                    "time": "2024 Spring",
+                    "description": "Preparing lab tutorials and grading assignments"
+                },
+                {
+                    "title": "Object-oriented Programming (Java) @ BUAA",
+                    "time": "2023 Autumn",
+                    "description": "Preparing lab tutorials, conducting Q&A sessions, and grading assignments"
+                },
+                {
+                    "title": "Programming Practice @ BUAA",
+                    "time": "2023 Summer, 2024 Summer",
+                    "description": "Conducting lessons and hands-on sessions, and grading assignments"
                 }
             ]
         }
